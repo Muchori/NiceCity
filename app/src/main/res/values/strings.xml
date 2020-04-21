@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Nice Digital City</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_subtitle">Email</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_account">Register / Log In</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_notice">What\'s New</string>
+    <string name="menu_contact_us">Contact Us</string>
+    <string name="menu_help_feedback">Help &amp; Feedback</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="title_activity_bottom_navigation">bottom_navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_shop">Shop</string>
+    <string name="title_recreation">Recreation</string>
+    <string name="title_header">Welcome To Nice Digital City</string>
+
+    <string name="title_register">SIGN UP</string>
+    <string name="register">REGISTER</string>
+    <string name="title_username">Username</string>
+    <string name="title_full_name">Full Name</string>
+    <string name="title_first_name">First Name</string>
+    <string name="title_second_name">Second Name</string>
+    <string name="title_email">Email</string>
+    <string name="title_pwd">Password</string>
+    <string name="title_age">Age</string>
+    <string name="title_gender">Gender</string>
+    <string name="title_user_type">User_Type</string>
+    <string name="title_phone_user">Phone Number</string>
+    <string name="title_conf_pwd">Confirm Password</string>
+
+
+    <string name="log_in">LOG IN</string>
+    <string name="logout">Logout</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="title_log_in">LOG IN</string>
+    <string name="title_sign_up">SIGN UP</string>
+    <string name="title_activity_user_logged">Nice Digital City</string>
+    <string name="menu_user_whatsnew">What\'s New</string>
+    <string name="menu_user_profile">Profile</string>
+    <string name="menu_user_contact_us">Contact Us</string>
+    <string name="menu_user_about_user">About Us</string>
+    <string name="menu_user_help_feedback">Help &amp; Feedback</string>
+
+    <string name="title_user_whatsnew">What\'s New</string>
+    <string name="title_user_profile">Profile</string>
+    <string name="title_user_contact_us">Contact Us</string>
+    <string name="title_user_about_user">About Us</string>
+    <string name="title_user_help_feedback">Help &amp; Feedback</string>
+
+
+    <string name="title_user_already_have_acc">Already Having Account</string>
+    <string name="title_user_shop">Shop</string>
+    <string name="title_user_recreation">Recreation</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_view_bookings">View Bookings</string>
+    <string name="title_new_bookings">New Bookings</string>
+    <string name="title_tasks">Tasks</string>
+    <string name="title_profile">Profile</string>
+
+
+    <string-array name="user_type">
+        <item>Customer</item>
+        <item>Staff</item>
+    </string-array>
+    <string name="title_activity_staff">StaffActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="title_activity_user">UserActivity</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_new_bookings">NewBookings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_view_booking">ViewBookingActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

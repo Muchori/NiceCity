@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NewBookingsActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="13dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_description"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/image_description"
+            android:layout_marginTop="50dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/pick_date_from"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From"
+                android:layout_marginLeft="55dp"
+                android:textAlignment="center"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/colorPrimaryDark"/>
+            <Button
+                android:id="@+id/pick_date_to"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="To"
+                android:layout_marginLeft="55dp"
+                android:textAlignment="center"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:text="From:"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/start_time_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick a time"
+                android:textAlignment="center"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <TextView
+                android:layout_width="56dp"
+                android:layout_height="wrap_content"
+                android:text="To:"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/end_time_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pick a time"
+                android:textAlignment="center"
+                android:backgroundTint="@color/white"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find A Room"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:id="@+id/btnFind_rooom"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Hall"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:id="@+id/btnFind_hall"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find Stall"
+            android:layout_marginTop="20dp"
+            app:backgroundTint="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:id="@+id/btnFind_stall"/>
+
+    </LinearLayout>
+
+</ScrollView>

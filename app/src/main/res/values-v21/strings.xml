@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Nice Digital City</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_fname">First Name</string>
+    <string name="hint_sname">Second Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_phonenumber">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already Registred! Log Me In.</string>
+    <string name="welcome">Welcome</string>
+    <string name="logout">logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
+</resources>

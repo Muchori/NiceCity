@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#D81B60</color>
+    <color name="colorPrimary">#D81B60</color>
+    <color name="colorDark">#3A3E41</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorPurple">#983CFF</color>
+    <color name="colorPurpleT">#64983cff</color>
+    <color name="colorBlue">#2FB4FF</color>
+    <color name="colorBlueT">#642fb4ff</color>
+
+    <color name="endblue">#0bcce6</color>
+    <color name="starblue">#09c6df</color>
+    <color name="graylight">#fafafa</color>
+    <color name="darkprimary">#292b3d</color>
+</resources>
